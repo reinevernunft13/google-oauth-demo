@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "tsc": "rm -rf dist/ && tsc",
     "dev": "ts-node-dev src/app.ts",
     "start": "node dist/app.js",
-    "tsc": "tsc", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
